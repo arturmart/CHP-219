@@ -17,7 +17,13 @@ int gcd(int a, int b) {
    */
 
     int main() { 
-        int a = 250, b = 75; 
+        int a, b; 
+        cout << "a=";
+        cin >> a;
+        cout << "b=";
+        cin >> b;
+        cout << endl;
+        
    
         cout << "GCD(" << a << ", " << b << ") = " << gcd(a, b) << endl;
         
